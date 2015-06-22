@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary = "Just a Swift helper class to retrieve basic device info."
   s.requires_arc = true
  
-  s.version = "0.0.1"
+  s.version = "0.0.2"
  
   s.license = { :type => "MIT", :file => "LICENSE" }
  
