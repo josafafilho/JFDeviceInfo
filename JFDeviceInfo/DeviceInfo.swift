@@ -1,5 +1,5 @@
 //
-//  JFDeviceInfo.swift
+//  DeviceInfo.swift
 //  JFDeviceInfo
 //
 //  Created by josafa on 6/22/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JFDeviceInfo {
+class DeviceInfo {
     
     static func getDeviceID() -> String {
         return UIDevice.currentDevice().identifierForVendor.UUIDString;

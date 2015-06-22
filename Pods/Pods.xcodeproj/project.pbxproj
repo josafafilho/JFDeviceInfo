@@ -7,58 +7,58 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D26DD2E87432118DC7082D89 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		901EFEA4B6185416E305FDB9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		7432941E14307AEC13210D1F /* Products */ = {
+		001A3F10E5AC1CEBD7B26301 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		761A06FAC15DA5BEA4816232 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		956E7462889259108353CEEB /* Targets Support Files */ = {
+		3E723BDD32B434B848520E62 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E8C7A2E2B3736868699EE049 = {
+		B68D73D2E0AB84F9BD6035C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D26DD2E87432118DC7082D89 /* Podfile */,
-				761A06FAC15DA5BEA4816232 /* Frameworks */,
-				7432941E14307AEC13210D1F /* Products */,
-				956E7462889259108353CEEB /* Targets Support Files */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD76DCAAA8CB0A9FFC48C049 = {
+			isa = PBXGroup;
+			children = (
+				901EFEA4B6185416E305FDB9 /* Podfile */,
+				B68D73D2E0AB84F9BD6035C1 /* Frameworks */,
+				001A3F10E5AC1CEBD7B26301 /* Products */,
+				3E723BDD32B434B848520E62 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		77CBD684E0440301C983A890 /* Project object */ = {
+		516897219B045FAB09C7CE0E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 0E704DE9532DF1D6EA8D06CA /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 182448ECD30E85551C285C61 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E8C7A2E2B3736868699EE049;
-			productRefGroup = 7432941E14307AEC13210D1F /* Products */;
+			mainGroup = FD76DCAAA8CB0A9FFC48C049;
+			productRefGroup = 001A3F10E5AC1CEBD7B26301 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -67,7 +67,7 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		EB13C87BB6D5319AA2BEC6F5 /* Debug */ = {
+		2F8AEA9C3A91B3CD4E7B7FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -106,7 +106,7 @@
 			};
 			name = Debug;
 		};
-		EEEE62A90251C09F5B50F654 /* Release */ = {
+		5ADCD83D8270DFF98C5084D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -143,16 +143,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E704DE9532DF1D6EA8D06CA /* Build configuration list for PBXProject "Pods" */ = {
+		182448ECD30E85551C285C61 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB13C87BB6D5319AA2BEC6F5 /* Debug */,
-				EEEE62A90251C09F5B50F654 /* Release */,
+				2F8AEA9C3A91B3CD4E7B7FB9 /* Debug */,
+				5ADCD83D8270DFF98C5084D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 77CBD684E0440301C983A890 /* Project object */;
+	rootObject = 516897219B045FAB09C7CE0E /* Project object */;
 }

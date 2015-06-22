@@ -10,7 +10,7 @@
 		D0972A261B38883500457841 /* JFDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D0972A251B38883500457841 /* JFDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0972A2C1B38883500457841 /* JFDeviceInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0972A201B38883500457841 /* JFDeviceInfo.framework */; };
 		D0972A331B38883500457841 /* JFDeviceInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0972A321B38883500457841 /* JFDeviceInfoTests.swift */; };
-		D0972A3D1B38889000457841 /* JFDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0972A3C1B38889000457841 /* JFDeviceInfo.swift */; };
+		D0972A3D1B38889000457841 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0972A3C1B38889000457841 /* DeviceInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		D0972A2B1B38883500457841 /* JFDeviceInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFDeviceInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0972A311B38883500457841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0972A321B38883500457841 /* JFDeviceInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFDeviceInfoTests.swift; sourceTree = "<group>"; };
-		D0972A3C1B38889000457841 /* JFDeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFDeviceInfo.swift; sourceTree = "<group>"; };
+		D0972A3C1B38889000457841 /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		D0972A221B38883500457841 /* JFDeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
-				D0972A3C1B38889000457841 /* JFDeviceInfo.swift */,
+				D0972A3C1B38889000457841 /* DeviceInfo.swift */,
 				D0972A251B38883500457841 /* JFDeviceInfo.h */,
 				D0972A231B38883500457841 /* Supporting Files */,
 			);
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0972A3D1B38889000457841 /* JFDeviceInfo.swift in Sources */,
+				D0972A3D1B38889000457841 /* DeviceInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
