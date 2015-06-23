@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DeviceInfo {
+public class DeviceInfo {
     
     static func getDeviceID() -> String {
         return UIDevice.currentDevice().identifierForVendor.UUIDString;
