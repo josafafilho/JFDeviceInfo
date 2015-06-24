@@ -9,8 +9,8 @@
 // JFDeviceInfo
 #define COCOAPODS_POD_AVAILABLE_JFDeviceInfo
 #define COCOAPODS_VERSION_MAJOR_JFDeviceInfo 0
-#define COCOAPODS_VERSION_MINOR_JFDeviceInfo 1
-#define COCOAPODS_VERSION_PATCH_JFDeviceInfo 0
+#define COCOAPODS_VERSION_MINOR_JFDeviceInfo 0
+#define COCOAPODS_VERSION_PATCH_JFDeviceInfo 4
 
 // Nimble
 #define COCOAPODS_POD_AVAILABLE_Nimble

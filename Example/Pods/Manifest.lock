@@ -1,5 +1,5 @@
 PODS:
-  - JFDeviceInfo (0.1.0)
+  - JFDeviceInfo (0.0.4)
   - Nimble (0.4.2)
   - Quick (0.3.1)
 
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JFDeviceInfo: ace63b43ce6d5909a3d912c57f2d327e54b55d6f
+  JFDeviceInfo: e5301c08b7cbd44677f99c0650c645655796e331
   Nimble: 49b7a7da8919f42823d37c6d68cc6d15a7009f32
   Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
 

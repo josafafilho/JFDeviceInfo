@@ -1,25 +1,23 @@
 {
   "name": "JFDeviceInfo",
-  "version": "0.1.0",
-  "summary": "A short description of JFDeviceInfo.",
-  "description": "                       An optional longer description of JFDeviceInfo\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JFDeviceInfo",
-  "license": "MIT",
-  "authors": {
-    "josafafilho": "josafafilho15@gmail.com"
-  },
-  "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JFDeviceInfo.git",
-    "tag": "0.1.0"
-  },
   "platforms": {
     "ios": "8.0"
   },
+  "summary": "Just a Swift helper class to retrieve basic device info.",
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "JFDeviceInfo": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "version": "0.0.4",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Josafá Filho": "josafafilho15@gmail.com"
+  },
+  "homepage": "https://github.com/josafafilho/JFDeviceInfo",
+  "source": {
+    "git": "https://github.com/josafafilho/JFDeviceInfo.git",
+    "tag": "0.0.4"
+  },
+  "frameworks": "UIKit",
+  "source_files": "JFDeviceInfo/**/*.{swift}"
 }

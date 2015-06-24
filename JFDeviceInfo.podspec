@@ -18,5 +18,9 @@ Pod::Spec.new do |s|
  
   s.framework = "UIKit"
  
-  s.source_files = "JFDeviceInfo/**/*.{swift}" 
+#  s.source_files = "JFDeviceInfo/**/*.{swift}"
+  s.source_files = 'Pod/Classes/**/*'
+  s.resource_bundles = {
+    'JFDeviceInfo' => ['Pod/Assets/*.png']
+  }
 end
