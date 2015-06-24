@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JFDeviceInfo_Example', :exclusive => true do
+  pod "JFDeviceInfo", :path => "../"
+end
+
+target 'JFDeviceInfo_Tests', :exclusive => true do
+  pod "JFDeviceInfo", :path => "../"
+
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+end

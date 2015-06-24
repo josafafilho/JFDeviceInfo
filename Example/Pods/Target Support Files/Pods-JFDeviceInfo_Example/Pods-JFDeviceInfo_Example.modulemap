@@ -1,0 +1,6 @@
+framework module Pods_JFDeviceInfo_Example {
+  umbrella header "Pods-JFDeviceInfo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
